@@ -3,10 +3,6 @@ module.exports = (expA, expB) => {
 }
 const VARIABLE = 'x'
 
-console.log(addExpressions('-x5+10x+3', '+5x3+x2+3x-9'))
-
-
-
 function addExpressions(expressionsA, expressionsB) {
     if (!expressionsA && !expressionsB) return null
     if (!expressionsA) return expressionsB
