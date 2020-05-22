@@ -1,8 +1,8 @@
 # Function to add two mathematical expressions
 
 ## Description 
-I have decided to create a function which as an input accept the 
-string and transform it into dual dimension array, then into map, whose key is a power of particular 'x', value is a number of 'x' . 
+I have decided to create a function which as an input accept the string and transform it into dual dimension array, 
+then into map, whose key is a power of particular 'x', value is a number of 'x' . 
 The function can be easily modified to skip the transform stage and accept an arrays or maps as an input.
 
 #### input string example:
@@ -35,11 +35,11 @@ command, you will install all necessary packages
 
 
 ### Running 
-If you want to use it, at the begining of the file you have to add line to import this function: 
+If you want to use it, at the begining of the your file, you have to add line to import this function: 
 ```
 const addExpressions = require('path')
 ```
-'path' have to link it with the addExpresions.js file
+'path' have to link it, with the addExpresions.js file
 
 ### Testing
 
